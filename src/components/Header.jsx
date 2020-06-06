@@ -1,12 +1,12 @@
 import React from "react";
-import HighlightIcon from "@material-ui/icons/Highlight";
+import TelegramIcon from "@material-ui/icons/Telegram";
 
 function Header() {
   return (
     <header>
       <h1>
-        <HighlightIcon />
-        Keeper
+        MyNote
+        <TelegramIcon fontSize="large" />
       </h1>
     </header>
   );
